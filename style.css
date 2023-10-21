@@ -1,0 +1,64 @@
+body {
+    padding: 20px;
+}
+@keyframes slide {
+0% {
+  transform: translateX(50px);
+}
+50% {
+  transform: translateX(0px);
+}
+100% {
+  transform: translateX(50px);
+}
+}
+.animated-text {
+display: inline-block;
+animation: slide 3s infinite;
+}
+
+.centered-text {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.header:hover {
+    cursor: pointer;
+}
+
+.resume-item {
+    margin-bottom: 20px;
+}
+
+.resume-item h3 {
+    margin-top: 0;
+}
+.enlarge {
+    transform: scale(1.1);
+}
+.image {
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 0px; 
+    width: 410px;
+    height: 300px;
+    object-fit: cover;
+}
+.icon{
+    width: 20px;
+    height: 100px;
+    object-fit: cover;
+}
