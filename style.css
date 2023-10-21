@@ -44,9 +44,6 @@ height: 100vh;
     margin-bottom: 20px;
 }
 
-.resume-item h3 {
-    margin-top: 0;
-}
 .enlarge {
     transform: scale(1.1);
 }
@@ -56,10 +53,5 @@ height: 100vh;
     margin-top: 0px; 
     width: 410px;
     height: 300px;
-    object-fit: cover;
-}
-.icon{
-    width: 20px;
-    height: 100px;
     object-fit: cover;
 }
